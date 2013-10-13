@@ -32,6 +32,6 @@ class AuthSourcePwauth < AuthSource
   end
 
   def auth_method_name
-    "Pwauth"
+    "pwauth"
   end
 end

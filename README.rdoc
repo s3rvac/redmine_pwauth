@@ -1,6 +1,6 @@
 = Redmine pwauth plugin
 
-Adds the +pwauth+ authentication to Redmine.
+Adds the +pwauth+ authentication to {Redmine}[http://www.redmine.org/].
 
 == Requirements
 

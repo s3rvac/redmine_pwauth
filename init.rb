@@ -4,5 +4,5 @@ Redmine::Plugin.register :redmine_pwauth do
   description 'Adds the pwauth authentication to Redmine. Requires `pwauth` to be installed.'
   version '1.0'
   url 'http://github.com/s3rvac/redmine_pwauth'
-  author_url 'http://www.linkedin.com/in/petrzemek'
+  author_url 'http://petrzemek.net/'
 end

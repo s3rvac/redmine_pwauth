@@ -8,7 +8,7 @@ The plugin requires {pwauth}[http://code.google.com/p/pwauth/] to be installed,
 configured, and available in +PATH+, i.e. the user under which Redmine is run
 can execute +pwauth+ without specifying a full path to this program.
 
-The plugin was tested under Redmine versions 2.3 through 2.5.
+The plugin was tested under Redmine versions 2.3 through 2.6.
 
 == Installation
 

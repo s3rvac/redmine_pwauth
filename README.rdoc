@@ -12,22 +12,23 @@ The plugin was tested under Redmine versions 2.3 through 2.6.
 
 == Installation
 
-Before installing, make sure to stop Redmine.
+Before installing, make sure to stop Redmine. Then, perform the following
+steps:
 
 1. <tt>cd [redmine-install-dir]</tt>
 2. <tt>git clone git://github.com/s3rvac/redmine_pwauth.git plugins/redmine_pwauth</tt>
 3. <tt>RAILS_ENV=production rake redmine:plugins:migrate</tt>
 
-After these steps, you can start Redmine and set the +pwauth+ authentication
-method for the users of your choice (visit <tt>Administration > Users</tt>).
+After that, you can start Redmine and set the +pwauth+ authentication method
+for the users of your choice (visit <tt>Administration > Users</tt>).
 
 == Uninstallation
 
-Before uninstalling, disable the +pwauth+ method for all users (visit
-<tt>Administration > Users</tt>), and stop Redmine.
+First, disable the +pwauth+ method for all users (visit <tt>Administration >
+Users</tt>), and stop Redmine. Then, perform the following steps:
 
 1. <tt>cd [redmine-install-dir]</tt>
 2. <tt>RAILS_ENV=production rake redmine:plugins:migrate NAME=redmine_pwauth VERSION=0</tt>
 3. <tt>rm -rf plugins/redmine_pwauth</tt>
 
-After performing these steps, you can start Redmine.
+After that, you can start Redmine.

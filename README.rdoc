@@ -16,7 +16,7 @@ Before installing, make sure to stop Redmine. Then, perform the following
 steps:
 
 1. <tt>cd [redmine-install-dir]</tt>
-2. <tt>git clone git://github.com/s3rvac/redmine_pwauth.git plugins/redmine_pwauth</tt>
+2. <tt>git clone https://github.com/s3rvac/redmine_pwauth.git plugins/redmine_pwauth</tt>
 3. <tt>RAILS_ENV=production rake redmine:plugins:migrate</tt>
 
 After that, you can start Redmine and set the +pwauth+ authentication method

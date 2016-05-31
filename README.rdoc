@@ -1,10 +1,10 @@
 = Redmine pwauth plugin
 
-Adds the +pwauth+ authentication to {Redmine}[http://www.redmine.org/].
+Adds the +pwauth+ authentication to {Redmine}[https://www.redmine.org/].
 
 == Requirements
 
-The plugin requires {pwauth}[http://code.google.com/p/pwauth/] to be installed,
+The plugin requires {pwauth}[https://code.google.com/p/pwauth/] to be installed,
 configured, and available in +PATH+, i.e. the user under which Redmine is run
 can execute +pwauth+ without specifying a full path to this program.
 
